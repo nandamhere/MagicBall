@@ -30,7 +30,11 @@ class ViewController: UIViewController {
         
     }
     
-   
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        
+        ballImage.image = UIImage(named: ballArray[Int(arc4random_uniform(5))])
+        
+    }
     
 }
 
