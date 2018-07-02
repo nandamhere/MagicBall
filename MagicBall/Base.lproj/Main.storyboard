@@ -25,10 +25,13 @@
                                     <constraint firstAttribute="height" constant="226" id="Cmz-5G-X0m"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kEC-cy-z6B">
-                                <rect key="frame" x="16" y="497" width="343" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kEC-cy-z6B">
+                                <rect key="frame" x="16" y="501" width="343" height="46"/>
                                 <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="Vat-zR-CC0"/>
+                                    <constraint firstAttribute="width" constant="343" id="dxj-Yw-8js"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Ask Me!!">
@@ -52,10 +55,14 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kEC-cy-z6B" secondAttribute="bottom" constant="120" id="6b5-QM-nhq"/>
                             <constraint firstItem="bpe-4x-1px" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="7bA-VR-hmn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bpe-4x-1px" secondAttribute="bottom" constant="297" id="TsT-ac-J0h"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bpe-4x-1px" secondAttribute="trailing" constant="64" id="aQe-PX-gfb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kEC-cy-z6B" secondAttribute="trailing" constant="16" id="oKv-aI-nTW"/>
+                            <constraint firstItem="kEC-cy-z6B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="qXo-Ps-HTH"/>
                             <constraint firstItem="bpe-4x-1px" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="124" id="xCa-H6-dGX"/>
+                            <constraint firstItem="kEC-cy-z6B" firstAttribute="top" secondItem="bpe-4x-1px" secondAttribute="bottom" constant="131" id="xHp-F1-Hku"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
